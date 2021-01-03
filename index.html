@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header id="header">
+      
+        <img src="assets/Logo_NB_fix.gif" id="header-img" alt="Gambar Logo NB">
+        <h1 id="judul">NOOBOUNDARY</h1>
+
+        <div id="box-nav">
+            <nav id="nav-bar">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#video" class="nav-link">Video</a>
+                <a href="#about" class="nav-link">About Us</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label id="label-email" for="email">Welcome Noob!</label><br>
+            <input type="email" id="email" name="email" placeholder="Masukkan Email" required><br>
+            <input type="submit" id="submit" value="Masuk">
+        </form>
+        <div id="features">
+
+            <div class="grid" id="tigaD">
+                <div class="icon">
+                    <img src="assets/block.png" id="cube" alt="Gambar Kubus">
+                </div>
+                <div class="tulisan">
+                    <h3>3D Making</h3>
+                    <p>Membuat tiga dimensi arsitektural dari referensi pop-culture movie, anime, drama, TV series, dan game</p>
+                </div>
+            </div>
+            
+            <div class="grid" id="gaming">
+                <div class="icon">
+                    <img src="assets/console.png" id="console" alt="Gambar Console">
+                </div>
+                <div class="tulisan">
+                    <h3>Gaming</h3>
+                    <p>Kami akan bermain dan bersenang-senang bersama teman-teman memainkan game</p>
+                </div>
+            </div>
+
+            <div class="grid" id="musik">
+                <div class="icon">
+                    <img src="assets/music-note.png" id="music-note" alt="Gambar Musik Note">
+                </div>
+                <div class="tulisan">
+                    <h3>Music</h3>
+                    <p>Instrumen cover dan TAB gratis dari lagu dan soundtrack yang diambil dari movie, anime, game, TV series, dan drama</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="box-video">
+            <iframe id="video" width="500" height="300" src="https://www.youtube.com/embed/AQsgmhkZtsE?playlist=AQsgmhkZtsE&loop=1" frameborder="0"></iframe>
+        </div>
+
+        <h2 style="padding-top: 50px; text-align: center;">Aboout Us</h2>
+        <div id="about">
+            <div>
+                <img src="assets/chad.gif" id="chad" alt="Gambar Chad">
+                <form>
+                    <input class="button" type="button"value="Chad">
+                </form>
+            </div>
+            <div>
+                <img src="assets/marmon.gif" id="marmon" alt="Gambar Marmondesu">
+                <form>
+                    <input class="button" type="button"value="Marmondesu">
+                </form>
+            </div>
+            <div>
+                <img src="assets/harold.gif" id="harold" alt="Gambar Harold">
+                <form>
+                    <input class="button" type="button"value="Harold">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>Copyright 2020, Nooboundary</footer>
+</body>

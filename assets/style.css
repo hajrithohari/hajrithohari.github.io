@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+body{
+    font-family: 'Teko', sans-serif;
+    margin: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+main{
+    margin-top: 100px;
+}
+
+#box-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link{
+    padding: 0px 50px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#header-img{
+    width: 100px;
+    height: 100px;
+}
+
+#judul{
+    margin-top: 30px;
+    margin-right: 600px;
+}
+
+form{
+    text-align: center;
+}
+
+#label-email{
+    font-size: 25px;
+}
+
+#email{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-bottom: 10px;
+}
+
+::placeholder{
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#submit{
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(63, 63, 63);
+    border-width: 1px;
+    color: whitesmoke;
+}
+
+#features{
+    font-size: 20px;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon{
+    margin-right: 30px;
+}
+
+h3{
+    line-height: 0px;
+}
+
+#cube, #console, #music-note{
+    width: 50px;
+    height: 50px;
+}
+
+#box-video{
+   text-align: center;
+}
+
+#about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#chad, #marmon, #harold{
+    height: 250px;
+}
+
+.button{
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    background-color: rgb(48, 48, 48);
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+
+.button:hover{
+    background-color: rgb(219, 219, 161);
+    color: black;
+}
+
+footer{
+    text-align: end;
+}
+
+@media only screen and (max-width: 800px) {
+    #judul{
+        margin-right: 100px;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    #judul{
+        margin-right: 0px;
+    }
+  }
